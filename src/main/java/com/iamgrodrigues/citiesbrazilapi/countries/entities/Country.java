@@ -1,4 +1,4 @@
-package com.iamgrodrigues.citiesbrazilapi.countries;
+package com.iamgrodrigues.citiesbrazilapi.countries.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

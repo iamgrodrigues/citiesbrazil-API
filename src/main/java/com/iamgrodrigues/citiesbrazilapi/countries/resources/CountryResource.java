@@ -1,7 +1,7 @@
-package com.iamgrodrigues.citiesbrazilapi;
+package com.iamgrodrigues.citiesbrazilapi.countries.resources;
 
-import com.iamgrodrigues.citiesbrazilapi.countries.Country;
-import com.iamgrodrigues.citiesbrazilapi.repository.countryRepository;
+import com.iamgrodrigues.citiesbrazilapi.countries.entities.Country;
+import com.iamgrodrigues.citiesbrazilapi.countries.repositories.countryRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
