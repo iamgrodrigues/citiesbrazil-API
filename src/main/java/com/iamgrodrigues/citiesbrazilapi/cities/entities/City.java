@@ -3,6 +3,10 @@ package com.iamgrodrigues.citiesbrazilapi.cities.entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Type;
+import org.hibernate.annotations.TypeDef;
+import org.hibernate.annotations.TypeDefs;
+import org.springframework.data.geo.Point;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,9 +18,9 @@ import javax.persistence.Table;
 @Table(name = "cidade")
 @AllArgsConstructor
 @NoArgsConstructor
-//@TypeDefs(value = {
-//        @TypeDef(name = "point", typeClass = PointType.class)
-//})
+@TypeDefs(value = {
+        @TypeDef(name = "point", typeClass = PointType.class)
+})
 public class City {
 
     @Id
@@ -34,8 +38,8 @@ public class City {
     private String geolocation;
 
     // 2nd
-//    @Type(type = "point")
-//    @Column(name = "lat_lon", updatable = false, insertable = false)
-//    private Point location;
+    @Type(type = "point")
+    @Column(name = "lat_lon", updatable = false, insertable = false)
+    private Point location;
 
 }
