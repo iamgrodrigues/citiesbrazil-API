@@ -29,7 +29,4 @@ public class Country {
     private String code;
 
     private Integer bacen;
-
-
-
 }
