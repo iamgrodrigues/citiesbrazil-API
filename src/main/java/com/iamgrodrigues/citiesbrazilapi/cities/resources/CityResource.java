@@ -2,6 +2,7 @@ package com.iamgrodrigues.citiesbrazilapi.cities.resources;
 
 import com.iamgrodrigues.citiesbrazilapi.cities.entities.City;
 import com.iamgrodrigues.citiesbrazilapi.cities.repositories.CityRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
@@ -14,13 +15,10 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("cities")
+@AllArgsConstructor
 public class CityResource {
 
     private final CityRepository repository;
-
-    public CityResource(final CityRepository repository) {
-        this.repository = repository;
-    }
 
     @GetMapping
     public Page<City> cities(final Pageable page) {
