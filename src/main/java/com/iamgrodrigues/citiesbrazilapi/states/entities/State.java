@@ -2,7 +2,9 @@ package com.iamgrodrigues.citiesbrazilapi.states.entities;
 
 import com.iamgrodrigues.citiesbrazilapi.countries.entities.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;
@@ -13,6 +15,8 @@ import java.util.List;
 @Entity(name = "State")
 @Data
 @Table(name = "estado")
+@AllArgsConstructor
+@NoArgsConstructor
 @TypeDefs({
         @TypeDef(name = "jsonb", typeClass = JsonBinaryType.class)
 })
