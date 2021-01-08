@@ -33,11 +33,11 @@ public class City {
 
     private Integer ibge;
 
-    // 1st
-    @Column(name = "lat_lon")
-    private String geolocation;
+    // 1st return lat_lon as String
+//    @Column(name = "lat_lon")
+//    private String geolocation;
 
-    // 2nd
+    // 2nd return lat_lon as PostgreSQL point type
     @Type(type = "point")
     @Column(name = "lat_lon", updatable = false, insertable = false)
     private Point location;
