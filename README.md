@@ -26,8 +26,8 @@
 
 # :rocket: Features
 
-- GET List of Brazilian Cities, States, and Countries. 
-- GET each Brazilian City, State, and Country by Id. 
+- GET List of Brazilian Cities and States, and Countries. 
+- GET each Brazilian City and State, and Country by Id. 
 - GET a straight line distance between two Brazilian Cities.
 
 Nearby cities query will be added soon.
@@ -46,11 +46,15 @@ For building and running the application you need:
 
 To install this application, run the following commands:
 
-```git clone https://github.com/iamgrodrigues/citiesbrazil-api.git```
+```bash
+git clone https://github.com/iamgrodrigues/citiesbrazil-api.git
+```
 
 If you have a SSH key registered in your Github account, clone the project using this command:
 
-```git clone git@github.com:iamgrodrigues/citiesbrazil-api.git```
+```bash
+git clone git@github.com:iamgrodrigues/citiesbrazil-api.git
+```
 
 # :runner: Getting Started
 
@@ -63,22 +67,23 @@ Alternatively you can use the [Spring Boot Gradle plugin](https://docs.spring.io
 ```shell
 gradle bootRun
 ```
-Afeter the above command, you can navigate to following address to see the project up and runnig:
+Afeter the above command, you can navigate to the following address to see the project up and runnig:
 
 ```shell
 http://localhost:8080/cities
 ```
 
 ## Running docker container
+> Note: Skip this part if you have PostgreSQL installed
 
 Once you've installed Docker run the following command: that will start up the PostgreSQL container on 5432:5432 port, set up enviroment variables for user and password, and create a database called cities.
 
 ```shell
 docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
 ```
-> Note: Skip this part if you have PostgreSQL installed
 
 ## Populate the database
+> Note: If you already have PostgreSQL installed on you machine, skip the docker related commands. 
 
 Gitclone the following repository, please show the man some love by starring his repository, he has done an amazing work populating all of those datas into this database.
 
@@ -105,8 +110,6 @@ psql -h localhost -U postgres_user_city cities
 CREATE EXTENSION cube; 
 CREATE EXTENSION earthdistance;
 ```
-
-> Note: If you already have the PostgreSQL installed on you machine, just skip the docker related commands. 
 
 ## Status Codes
 
