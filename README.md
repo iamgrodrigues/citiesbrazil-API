@@ -103,7 +103,7 @@ psql -h localhost -U postgres_user_city cities -f /tmp/cidade.sql
 ```
 
 In order to do the distance calculation you will need to create the [Earthdistance](https://www.postgresql.org/docs/current/earthdistance.html) extension in the database, you can achieve that by running these commands:
-```bash
+```PostgreSQL
 
 psql -h localhost -U postgres_user_city cities
 
