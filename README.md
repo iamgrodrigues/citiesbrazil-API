@@ -1,10 +1,10 @@
 # CitiesBrazil API
 
-[![Author](https://img.shields.io/badge/author-GuilhermeRodrigues-11BC83?style=flat-square)](https://github.com/iamgrodrigues)
-[![Languages](https://img.shields.io/github/languages/count/iamgrodrigues/citiesbrazil-api?color=11BC83&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/iamgrodrigues/citiesbrazil-api?color=11BC83&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/stargazers)
-[![Forks](https://img.shields.io/github/forks/iamgrodrigues/citiesbrazil-api?color=11BC83&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/network/members)
-[![Contributors](https://img.shields.io/github/contributors/iamgrodrigues/citiesbrazil-api?color=11BC83&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/graphs/contributors)
+[![Author](https://img.shields.io/badge/author-GuilhermeRodrigues-6e40c9?style=flat-square)](https://github.com/iamgrodrigues)
+[![Languages](https://img.shields.io/github/languages/count/iamgrodrigues/citiesbrazil-api?color=6e40c9&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/iamgrodrigues/citiesbrazil-api?color=6e40c9&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/stargazers)
+[![Forks](https://img.shields.io/github/forks/iamgrodrigues/citiesbrazil-api?color=6e40c9&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/network/members)
+[![Contributors](https://img.shields.io/github/contributors/iamgrodrigues/citiesbrazil-api?color=6e40c9&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/graphs/contributors)
 
 > A Rest API that helps you to get all the cities in Brazil :rocket:
 
@@ -30,7 +30,7 @@
 - GET each Brazilian City and State, and Country by Id. 
 - GET a straight line distance between two Brazilian Cities.
 
-Nearby cities query will be added soon.
+> Nearby cities query will be added soon.
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=CitiesBrazilAPI%20API&uri=https%3A%2F%2Fgithub.com%2Fiamgrodrigues%2Fcitiesbrazil-api%2Fblob%2Fmaster%2F.github%2Fdocs/citiesbrazil-api)
 
@@ -83,7 +83,7 @@ docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city 
 ```
 
 ## Populate the database
-> Note: If you already have PostgreSQL installed on you machine, skip the docker related commands. 
+> Note: If you already have PostgreSQL installed on your machine, skip the docker related commands. 
 
 Gitclone the following repository, please show the man some love by starring his repository, he has done an amazing work populating all of those datas into this database.
 
@@ -121,7 +121,7 @@ CitiesBrazil returns the following status codes in its API:
 | 400 | `BAD REQUEST` |
 | 500 | `INTERNAL SERVER ERROR` |
 
-Error handling will be added soon.
+> Error handling will be added soon.
 
 # :postbox: Faq
 
