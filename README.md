@@ -1,10 +1,10 @@
 # CitiesBrazil API
 
-[![Author](https://img.shields.io/badge/author-GuilhermeRodrigues-6e40c9?style=flat-square)](https://github.com/iamgrodrigues)
-[![Languages](https://img.shields.io/github/languages/count/iamgrodrigues/citiesbrazil-api?color=6e40c9&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/iamgrodrigues/citiesbrazil-api?color=6e40c9&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/stargazers)
-[![Forks](https://img.shields.io/github/forks/iamgrodrigues/citiesbrazil-api?color=6e40c9&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/network/members)
-[![Contributors](https://img.shields.io/github/contributors/iamgrodrigues/citiesbrazil-api?color=6e40c9&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/graphs/contributors)
+[![Author](https://img.shields.io/badge/author-GuilhermeRodrigues-2aa889?style=flat-square)](https://github.com/iamgrodrigues)
+[![Languages](https://img.shields.io/github/languages/count/iamgrodrigues/citiesbrazil-api?color=2aa889&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/iamgrodrigues/citiesbrazil-api?color=2aa889&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/stargazers)
+[![Forks](https://img.shields.io/github/forks/iamgrodrigues/citiesbrazil-api?color=2aa889&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/network/members)
+[![Contributors](https://img.shields.io/github/contributors/iamgrodrigues/citiesbrazil-api?color=2aa889&style=flat-square)](https://github.com/iamgrodrigues/citiesbrazil-api/graphs/contributors)
 
 > A Rest API that helps you to get all the cities in Brazil :rocket:
 
