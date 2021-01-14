@@ -67,7 +67,7 @@ Alternatively you can use the [Spring Boot Gradle plugin](https://docs.spring.io
 ```shell
 gradle bootRun
 ```
-Afeter the above command, you can navigate to the following address to see the project up and runnig:
+After the above command, you can navigate to the following address to see the project up and runnig:
 
 ```shell
 http://localhost:8080/cities
